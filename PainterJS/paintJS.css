@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Bangers', cursive;
+    font-size: 30px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cornflowerblue;
+    height: 2rem;
+    width: 100%;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    background-color: cornflowerblue;
+    height: 2rem;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.canvas-screen{
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 0.5%;
+}
+
+.options .option-color{
+    display: flex;
+}
+
+.options .option-size{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.options .option-color input[type="color"]{
+    margin-left: 1%;
+}
+
+.options .option-size input[type="number"]{
+    margin-left: 1%;
+}
